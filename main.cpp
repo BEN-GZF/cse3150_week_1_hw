@@ -11,9 +11,9 @@ int main()
     int a = 3;
     int b = 4;
 
-    cout << add(a, b) << endl;
-    cout << multiply(a, b) << endl;
-    cout << square(a) << endl;
+    cout << "a + b = " << add(a, b) << endl;
+    cout << "a * b = " << multiply(a, b) << endl;
+    cout << "square(a) = " << square(a) << endl;
 
     return 0;
 }
